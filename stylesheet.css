@@ -1,0 +1,16 @@
+div {
+	border: solid 2px black;
+}
+
+.main {
+	border-color: red;
+	display: inline;
+	max-width: 66%;
+	float: left;
+}
+
+.side {
+	border-color: blue;
+	display: inline;
+	max-width: 33%;
+}
