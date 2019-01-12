@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+}
+
+.content-container {
+	margin: 10px;
+}
+
+.big-column {
+	background-color: darkgray;
+	float: left;
+}
+
+.small-column {
+	background-color: lightgray;
+	float: right;
+}
+
+@media (min-width: 300px) {
+	body {
+		color: blue;
+	}
+	.big-column {
+		width: 100%
+	}
+	.small-column {
+		width: 100%
+	}
+}
+
+@media (min-width: 500px) {
+	body {
+		color: green;
+	}
+	.big-column {
+		width: 60%
+	}
+	.small-column {
+		width: 35%
+	}
+}
+
+@media (min-width: 900px) {
+	body {
+		color: yellow;
+	}
+	.big-column {
+		width: 70%
+	}
+	.small-column {
+		width: 20%
+	}
+}
